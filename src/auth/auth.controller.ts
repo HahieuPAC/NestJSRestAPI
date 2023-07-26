@@ -4,7 +4,6 @@ import { AuthService } from "./auth.service";
 export class AuthController {
     // auth service is automatically created when initializing the controller
     constructor(private authService: AuthService) {
-        authService.doSomeThing();
 
     }
     // some request from client
